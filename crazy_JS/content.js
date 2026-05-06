@@ -1,5 +1,5 @@
 let timer;
-const TIME_LIMIT = 1 * 60 * 1000; // 5 minutes
+const TIME_LIMIT = 1 * 60 * 1000; // 1 minute
 
 function resetTimer() {
     clearTimeout(timer);
@@ -58,7 +58,7 @@ function showPopup() {
         ">
             <h2>😤 Kyu nahi ho rahi hai padhai?</h2>
             <iframe width="300" height="200"
-                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+                src="https://youtube.com/shorts/QpQJ6boEOH8?si=YsD-KE_nCGMoFtEI">
             </iframe>
             <br><br>
             <button onclick="this.parentElement.parentElement.remove()">Close</button>
