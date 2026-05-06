@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Padhai Reminder 😤",
+  "version": "1.0",
+  "description": "Reminds you to study if you slack off",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
