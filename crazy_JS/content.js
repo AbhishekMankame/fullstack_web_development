@@ -1,5 +1,5 @@
 let timer;
-const TIME_LIMIT = 5 * 60 * 1000; // 5 minutes
+const TIME_LIMIT = 1 * 60 * 1000; // 5 minutes
 
 function resetTimer() {
     clearTimeout(timer);
