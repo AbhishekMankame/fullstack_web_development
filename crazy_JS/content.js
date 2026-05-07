@@ -126,7 +126,7 @@ function showPopup() {
             <iframe
                 width="100%"
                 height="420"
-                src="https://www.youtube.com/embed/QpQJ6boEOH8?autoplay=1"
+                src="https://youtube.com/shorts/QpQJ6boEOH8?si=OurVmyaBlJj5XLON"
                 title="Motivation Video"
                 frameborder="0"
                 allow="autoplay; encrypted-media"
