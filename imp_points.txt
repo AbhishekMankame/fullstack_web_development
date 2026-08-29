@@ -1,0 +1,7 @@
+Ability to write CSS and make your website beautiful actually comes on the third place.
+- The `First` is actually the `Font`. The more beautiful the font is on the website, it totally changes the look feel theme of the entire website with just the font.
+- Font consumes the majority of the space on the webpage.
+- The `Second` important place is of the images. The more beautifully desinged the images are and the more optimizedly and more with the idea of the flow they are being desinged and put on the website. That takes the second place.
+- The `Third` place is of the components. How good your button looks like, how good your list looks like, or how good your card looks like.
+
+- Note: The whole job of `CSS` is just two things, selecting the element and styling the element.
