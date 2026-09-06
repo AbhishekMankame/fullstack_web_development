@@ -3,7 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Selectors Example</title>
+    <style>
+        /* 1. Universal Selector */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 2. Type Selector */
+
+        p {
+            font-size: 16px;
+            /* margin: 10px 20px 10px 20px; top, right, bottom, left */
+            margin-bottom: 10px;
+        }
+
+        /* 3. Class Selector */
+
+        .highlight {
+            background-color: #21a2c9;
+        }
+
+        /* 4. ID Selector */
+        /* Note: According to the specification, we should have only 1 unique ID in one webpage*/
+
+        #header {
+            background-color: #860303;
+        }
+
+        /* 5. Attribute Selector */
+        input[type="text"] {
+            border: 2px solid #21a2c9;
+        }
+
+        /* 6. Descendant Selector */
+
+        /* 7. Child Selector */
+        
+        /* 8. Adjacent Sibling Selector */
+
+        /* 9. General Sibling Selector */
+
+        /* 10. Pseudo-class Selector */
+
+        /* 11. Pseudo-element Selector */
+
+        /* 12. Grouping Selector */
+
+
+    </style>
 </head>
 <body>
     <header id="header">This is the header</header>
