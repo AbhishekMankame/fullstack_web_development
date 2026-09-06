@@ -40,19 +40,49 @@
         }
 
         /* 6. Descendant Selector */
+        article p {
+            font-style: italic;
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 10px;
+        }
 
         /* 7. Child Selector */
+        div > p {
+            background-color: #880404;
+        }
         
         /* 8. Adjacent Sibling Selector */
 
+        h1 + p {
+           font-weight: bold; 
+        }
+
         /* 9. General Sibling Selector */
 
+        h2 ~ p {
+            color: #860303
+        }
+
         /* 10. Pseudo-class Selector */
+        a:hover {
+            background-color: #14a50e;
+            text-decoration: none;
+            color: #1a1a1a;
+            padding: 5px;
+            margin: 4px;
+        }
 
         /* 11. Pseudo-element Selector */
+        p::first-letter {
+            font-weight: bold;
+            font-size: 30px;
+        }
 
         /* 12. Grouping Selector */
-
+        h1, h2, h3 {
+            color: orange;
+        }
 
     </style>
 </head>
@@ -73,9 +103,17 @@
         <p>
             This paragraph is inside an article, showing the descendant selector.
         </p>
+
+        <p>
+            This paragraph is inside an article, showing the descendant selector.
+        </p>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, perspiciatis.</p>
+        </div>
     </article>
 
-    <ul>
+    <!-- <ul>
         <li>Direct child list item</li>
         <li>
             Another direct child
@@ -83,7 +121,17 @@
                 <li>This is not a direct child of the first ul</li>
             </ul>
         </li>
-    </ul>
+    </ul> -->
+
+    <div>
+        <p>I am a Child</p>
+        <p>I am a Child</p>
+
+        <section>
+            <p>I am a Descendant</p>
+        </section>
+        <p>Paragraph 4 in the div.</p>
+    </div>
 
     <h2>Sub Heading</h2>
     <p>This is a sibling paragraph to h2, demonstrating the general sibling selector.</p>
