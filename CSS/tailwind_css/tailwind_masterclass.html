@@ -7,11 +7,23 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <div class="gap-4 m-4 grid sm:grid-cols-4">
+    <!-- <div class="gap-4 m-4 grid sm:grid-cols-4">
         <div class="min-h-[100px] rounded-lg shadow bg-orange-500"></div>
         <div class="min-h-[100px] rounded-lg shadow bg-teal-500"></div>
         <div class="min-h-[100px] rounded-lg shadow bg-red-500"></div>
         <div class="min-h-[100px] rounded-lg shadow bg-purple-500"></div>
+    </div> -->
+
+    <!-- <div class="gap-4 m-4 grid  sm:grid-cols-12 grid-cols-2">
+        <div class="min-h-[100px] rounded-lg shadow bg-orange-500 sm:col-span-2"></div>
+        <div class="min-h-[100px] rounded-lg shadow bg-teal-500 sm:col-span-10"></div>
+    </div> -->
+
+    <div class="gap-4 m-4 grid sm:grid-cols-12">
+        <div class="hidden sm:block sm:col-span-2 min-h-[100px] rounded-lg shadow bg-orange-500"></div>
+        <div class="md:col-span-8 sm:col-span-10 min-h-[100px] rounded-lg shadow bg-teal-500"></div>
+        <div class="hidden md:block sm:col-span-2 min-h-[100px] rounded-lg shadow bg-purple-500"></div>
     </div>
+
 </body>
 </html>
