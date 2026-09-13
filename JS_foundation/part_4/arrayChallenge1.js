@@ -1,0 +1,16 @@
+/* 
+1. Declare an array named `teaFlavors` that contains the strings `"green tea"`, `"black tea"`, and `"oolong tea"`.
+    Access the first element of the array and store it in a variable named `firstTea`.
+*/
+
+let teaFlavors = ["green tea", "black tea", "oolong tea"];
+let firstTea = teaFlavors[0];
+
+console.log(teaFlavors[0]);
+console.log(firstTea);
+
+/*Note: We can also declare array like below
+
+let teaFlavors = new Array("green tea", "black tea", "oolong tea");
+
+*/
