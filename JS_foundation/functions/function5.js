@@ -10,7 +10,7 @@ function createTeaMaker() {
 };
 
 let teaMaker = createTeaMaker();
-// console.log(teaMaker("green tea"));
+ console.log(teaMaker("green tea"));
 
 let result = teaMaker("green tea");
 console.log(result);

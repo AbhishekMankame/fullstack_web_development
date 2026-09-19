@@ -14,3 +14,4 @@ function orderTea(teaType) {
 
 let orderConfirmation = orderTea("masala chai");
 console.log(orderConfirmation);
+console.log(orderTea("masala chai"));
