@@ -5,7 +5,7 @@ let computer = {
 let lenovo = {
     screen: "HD",
     __proto__: computer
-};
+}; // Here by using `__proto__:computer` we will be accessing all the properties which are there in the `computer`.
 
 let tomHardware = {};
 
