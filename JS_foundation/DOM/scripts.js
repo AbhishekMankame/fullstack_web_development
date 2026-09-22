@@ -36,3 +36,5 @@ document.getElementById("removeLastTask").addEventListener('click', function() {
     let taskList = document.getElementById("taskList");
     taskList.lastElementChild.remove();
 });
+
+// Example 6: Event Handling in the DOM
