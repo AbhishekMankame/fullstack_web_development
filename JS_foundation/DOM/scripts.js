@@ -1,11 +1,9 @@
 // Example 1: Accessing DOM Elements
-
 document.getElementById("changeTextButton").addEventListener("click", function(){
     let paragraph = document.getElementById("myParagraph");
     //console.log(paragraph.textContext);
     paragraph.textContent = "The paragraph is changed!!!"
 });
-
 
 // Example 2: Traversing the DOM
 document.getElementById("highlightFirstCity").addEventListener('click', function(){
