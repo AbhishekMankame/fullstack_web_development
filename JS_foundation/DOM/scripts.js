@@ -36,3 +36,35 @@ document.getElementById("removeLastTask").addEventListener('click', function() {
 });
 
 // Example 6: Event Handling in the DOM
+document.getElementById("clickMeButton").addEventListener('click', function() {
+    alert("chai code");
+});
+
+// Example 7: Event Delegation 
+document.getElementById("teaList").addEventListener('click', function() {
+    if(event.target && event.target.matches('.teaItem')) {
+        alert("You selected: " + event.target.textContent);
+        
+    }
+});
+
+// Example 8: Form Handling
+document.getElementById("feedbackForm").addEventListener("submit", function(event) {
+    // alert("Submitted");
+    event.preventDefault();
+    let feedback = document.getElementById("feedbackInput").value;
+    console.log(feedback);
+    document.getElementById("feedbackDisplay").textContent = `Feedback is: ${feedback}`
+});
+
+// Example 9: DOM Content Loaded
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('domStatus').textContent = "DOM fully loaded"
+});
+
+// Example 10: CSS Classes Manipulation
+document.getElementById("toggleHighlight").addEventListener('click', function() {
+    let descriptionText = document.getElementById("descriptionText");
+    descriptionText.classList.add("highlight");
+});
