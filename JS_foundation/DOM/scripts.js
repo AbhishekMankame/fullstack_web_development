@@ -58,7 +58,6 @@ document.getElementById("feedbackForm").addEventListener("submit", function(even
 });
 
 // Example 9: DOM Content Loaded
-
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('domStatus').textContent = "DOM fully loaded"
 });
