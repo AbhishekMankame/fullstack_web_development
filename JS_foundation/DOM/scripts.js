@@ -65,5 +65,5 @@ document.addEventListener('DOMContentLoaded', function() {
 // Example 10: CSS Classes Manipulation
 document.getElementById("toggleHighlight").addEventListener('click', function() {
     let descriptionText = document.getElementById("descriptionText");
-    descriptionText.classList.add("highlight");
+    descriptionText.classList.toggle("highlight");
 });
