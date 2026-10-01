@@ -1,0 +1,32 @@
+Git tutorial 
+- Git and Github are different
+- Git is a software
+- Github is a service / service provider
+
+-> Version Control System: Track files for changes
+
+==> Learning Path:
+- Get the basics
+- Use it daily
+- Face the problem -> solve the problem
+
+### Git Commands
+
+git --version / git -v ==> displays the version of git
+
+.git --> A hidden folder to keep history of all files and sub folders.
+
+git init --> To initialize the git
+git status --> To check the status of the software
+
+Note: We will run `git init` only one time in the project.
+-> `git init` creates `.git` folder, which is a hidden folder to keep track of the files, folders and sub-folders
+
+--> `commit` statements are almost exactly like the checkpoints which happens in any video games.
+
+Imp Note: The whole idea behind the things is we write something into the directory, we add that and and we commit that.
+
+Write --------> Add ----------> Commit
+
+Workflow of Git:
+Working Directory --- git add ---> Staging Area --- git commit ---> Repo --- git push ---> Github
