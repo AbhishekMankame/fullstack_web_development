@@ -31,3 +31,17 @@ function track(visitor) {
 }
 
 console.log(text);
+
+/*
+## Not Iterable:
+WeakSets are not enumerable.
+You cannot iterate over the values with for loops, forEach(), or values().
+You cannot access the size. WeakSets have no size property.
+*/
+
+/*
+Interview tip: 
+If an interviewer asks, "What is the biggest advantage of WeakSet over Set?"
+Answer: WeakSet holds weak references to objects, so it does not prevent garbage collection when those objects are no longer reachable elsewhere. This helps avoid unnecessary memory retention.
+
+*/
