@@ -1,0 +1,20 @@
+## Characteristics of OOP
+- Class -> A blueprint or template for creating objects.
+- Object -> An instance of a class.
+- Encapsulation -> Protects data from direct access.
+- Abstraction -> Hides unnecessary details.
+- Polymorphism -> Allows the same method to behave differently.
+- Inheritence -> Reuses code from existing classes.
+
+## Class: 
+A Class in JavaScript is a blueprint or template used to create objects. It defines the properties (data) and behaviors (methods) that objects of that class will have.
+- A class is a user-defined blueprint for creating objects.
+- It contains properties and methods.
+- Multiple objects can be created from a single class.
+
+Example: A Car represents a class (blueprint), while BMW, Mercedes, and Audi represents objects (instances) created from that class.
+
+### Object: An Object in JS is an instance of a class that represents a real-world entity. It is used to access the properties and methods define inside a class.
+- State: Represents the current data or attributes of an object.
+- Behavior: Represents the actions that an object can perform.
+- Identity: Every object has a unique identity in memory that distinguishes it from other objects.
